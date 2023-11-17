@@ -53,3 +53,37 @@ button:hover {
         width: 90%;
     }
 }
+/* Add your existing CSS styles here */
+
+#loginContainer,
+#adminContainer {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+}
+
+#loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#adminContainer {
+    display: none;
+}
+
+#adminContainer label,
+#adminContainer input,
+#adminContainer textarea,
+#adminContainer button {
+    margin-bottom: 16px;
+}

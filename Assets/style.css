@@ -122,6 +122,8 @@ main .container{
   }
   .card img{
     position: relative;
+    width: 100%;
+    -webkit-user-drag: none;
   }
   
   .card button {
@@ -194,6 +196,6 @@ main .container{
     }
     .card p{
         font-size: 12px;
-        overflow-: scroll;
+        /* overflow-: scroll; */
     }
   }

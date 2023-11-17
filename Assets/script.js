@@ -19,9 +19,10 @@ const renderProducts = (products) => {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
+      <img src="${product.imageUrl}" alt="${product.name}" />
       <h3>${product.name}</h3>
       <p>${product.description}</p>
-      <button class="fa-solid fa-eye"> View</button>
+      <button class="fa-solid fa-eye" onclick="window.location.href='${product.affiliateLink}'"> View</button>
     `;
     cardContainer.appendChild(card);
   });
